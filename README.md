@@ -11,15 +11,15 @@
 
 # 2.项目部署
 ## 2.1 后端
-通过Navicat创建数据库，编码utf8mb4
-导入project\zonghefuwuServer\db目录下的sql文件
-根据本地数据库环境，修改src/com/db/conn.java  19,24-27行
-配置tomcat，其中deployment的ApplicationContext配置为/zonghefuwuServer（和小程序请求url一致就行）
-启动tomcat，http://localhost:8080/zonghefuwuServer 管理员账号密码： admin/123456
+- 通过Navicat创建数据库，编码utf8mb4
+- 导入project\zonghefuwuServer\db目录下的sql文件
+- 根据本地数据库环境，修改src/com/db/conn.java  19,24-27行
+- 配置tomcat，其中deployment的ApplicationContext配置为/zonghefuwuServer（和小程序请求url一致就行）
+- 启动tomcat，http://localhost:8080/zonghefuwuServer 管理员账号密码： admin/123456
 ## 2.2 小程序部署
-微信开发工具打开zonghefuwu
-appid选择测试号即可
-运行，登录账号自行查询数据库
+- 微信开发工具打开zonghefuwu
+- appid选择测试号即可
+- 运行，登录账号自行查询数据库
 # 3.项目部分截图
 ![输入图片说明](1.png)
 ![输入图片说明](2.png)
